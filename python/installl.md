@@ -29,7 +29,7 @@ After the installation is complete, you can verify that Python was installed cor
 ```python3 --version ```
 
 
-## Step 5: Create a Virtual Environment
+## Step 5: Create a Virtual Environment [ Good to have ]
 ``` python3 -m venv myenv ```
 
 Replace myenv with the name you want to give to your virtual environment.
