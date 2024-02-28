@@ -36,6 +36,8 @@
       DirectoryIndex index.html index.php
    </IfModule>
    ```
+## Run the below command if mysql_secure_installation is not triggerred when you brew install 
 
+  ``` mysql_secure_installation ```
 
 
