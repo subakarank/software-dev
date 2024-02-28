@@ -36,8 +36,33 @@
       DirectoryIndex index.html index.php
    </IfModule>
    ```
+5. After made changes in the file save then run the below command in your terminal
+   
+   ``` brew services restart httpd ```
+
+
 ## Run the below command if mysql_secure_installation is not triggerred when you brew install 
 
   ``` mysql_secure_installation ```
+
+## Trouble shooting step 
+  * If http://localhost is not working run the below command and see the result
+    
+  ``` sudo lsof -i :80 ```
+  
+ * Check the services list
+   
+  ``` brew services list ```
+  
+ * To stop and start httpd
+   
+  ``` 
+  brew services restart httpd
+  brew services start httpd
+  brew services stop httpd
+ ```
+
+  
+
 
 
