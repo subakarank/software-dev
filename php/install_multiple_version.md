@@ -35,9 +35,23 @@ This command will display the installed PHP version. Make sure it shows PHP 8.0.
    ```
    brew unlink php@8.0
    brew link --force --overwrite php
- ```
+   
+   ```
+
+**These steps with commands should be more helpful for executing the necessary actions. Let me know if you need further clarification or assistance!
+
+# Troubleshooting
+If you encounter the below error 
+   ``` php@8.0 has been disabled because it is a versioned formula! ```
+Then floww the below steps
+
+   ``` brew tap shivammathur/php ```
+   ``` brew install shivammathur/php/php@8.0 ```
+   ``` brew link --force --overwrite php@8.0 ```
+   ``` php -v ``` 
 
 
-# These steps with commands should be more helpful for executing the necessary actions. Let me know if you need further clarification or assistance!
+
+
 
 
