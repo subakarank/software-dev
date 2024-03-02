@@ -43,12 +43,22 @@ This command will display the installed PHP version. Make sure it shows PHP 8.0.
 # Troubleshooting
 If you encounter the below error 
    ``` php@8.0 has been disabled because it is a versioned formula! ```
-Then floww the below steps
+Then follow the below steps
 
    ``` brew tap shivammathur/php ```
+   
    ``` brew install shivammathur/php/php@8.0 ```
+   
    ``` brew link --force --overwrite php@8.0 ```
+   
    ``` php -v ``` 
+** Disable PHP 8.3 Module: First, you need to disable the PHP 8.3 module. If PHP 8.3 was installed using Homebrew, you can use the following command:
+
+   ``` sudo a2dismod php8.3 ```
+
+** Enable PHP 8.0 Module: Next, enable the PHP 8.0 module:
+
+   ``` sudo service apache2 restart ``` 
 
 
 
