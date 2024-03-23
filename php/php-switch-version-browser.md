@@ -21,3 +21,7 @@ LoadModule php_module /usr/local/opt/php@8.3/lib/httpd/modules/libphp.so
 - Uncomment the below one
   ``` LoadModule php_module /usr/local/opt/php@8.3/lib/httpd/modules/libphp.so ```
 
+**Restart the httpd**
+
+  ``` brew services restart httpd ```
+
