@@ -16,13 +16,6 @@ print(z is x) # True
 
 In Python, the `is` operator checks if two variables point to the same object in memory, rather than just having equal values. 
 
-In your code:
-
-1. `x` is assigned the value `5`.
-2. `y` is also assigned the value `5`.
-3. `x` is reassigned to the same value `x`, which is `5`. This doesn't change the object that `x` refers to.
-4. `z` is assigned the value of `x`, which is `5`.
-
 Since integers in Python are immutable, the Python interpreter optimizes memory usage by reusing the same object for small integers, such as `5`. So when you check `x is y`, it returns `True` because both `x` and `y` are referring to the same integer object `5` in memory.
 
 However, it's important to note that this behavior might not always hold true for larger integers or other types of objects. For example:
