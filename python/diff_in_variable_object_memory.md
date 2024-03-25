@@ -1,20 +1,23 @@
 **Object Creation for Integers:**
-When you create an integer in Python, such as x = 5, Python creates an integer object to represent the value 5.
+
+- When you create an integer in Python, such as x = 5, Python creates an integer object to represent the value 5.
 This object contains the actual value and any necessary metadata. Python manages this object internally, handling memory allocation and deallocation.
 
 **Memory Allocation for Objects:**
-When Python creates an object, it allocates memory to store that object.
+
+- When Python creates an object, it allocates memory to store that object.
 The amount of memory allocated depends on the type of object and the system architecture.
 For integers, Python typically allocates a fixed amount of memory to store the integer value itself and any necessary metadata.
 
 **References:**
-In Python, variables are references to objects.
+
+- In Python, variables are references to objects.
 When you assign a value to a variable, such as x = 5, x becomes a reference to the integer object representing the value 5. Similarly,
 when you assign another variable y to the same value, like y = 5, y also becomes a reference to the same integer object.
 
 **Sharing Memory vs. Sharing Objects:**
 
-When we say that x and y share the same object, it means they both point to the same location in memory where that integer object is stored.
+- When we say that x and y share the same object, it means they both point to the same location in memory where that integer object is stored.
 They are essentially two names or labels referring to the same object. However, they are not the object itself. The object is the actual data stored in memory,
 while x and y are references or labels pointing to that data.
 
@@ -36,7 +39,8 @@ y = 5
 ```
 
 **Memory Allocation:**
-When you execute the above code, Python allocates memory for the integer object representing the value 5. 
+
+- When you execute the above code, Python allocates memory for the integer object representing the value 5. 
 Both x and y are then assigned references to this same object.
 
 ```
