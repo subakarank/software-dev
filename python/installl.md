@@ -34,7 +34,7 @@ After the installation is complete, you can verify that Python was installed cor
 
 Replace myenv with the name you want to give to your virtual environment.
 
-## Step 6: Activate the Virtual Environment
+## Step 6: Activate the Virtual Environment [ Good to have ]
 
 Once the virtual environment is created, you need to activate it. Run the following command:
 
