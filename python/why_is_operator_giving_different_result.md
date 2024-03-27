@@ -1,6 +1,6 @@
 
 
-### Explanation 1:
+### Explanation:
 
 ```
 x = 5 
@@ -26,8 +26,7 @@ y = 500
 print(x is y)  # This might print False, as larger integers aren't necessarily cached in the same way. 
 
 ```
-
-### Explanation 2 
+ 
 
 In CPython (the most commonly used implementation of Python), integers from -5 to 256 (inclusive) are cached and reused. This means that whenever you create an integer within this range, Python will reuse the same object in memory rather than creating a new one. This optimization is done for performance reasons since small integers are frequently used.
 
