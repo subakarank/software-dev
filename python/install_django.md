@@ -1,6 +1,6 @@
 How to setup Django project? 
 
-#Setup python in venv
+# Setup python in venv
 mkdir project_folder_name
 
 cd project_folder_name
@@ -9,7 +9,7 @@ python -m venv .venv
 Source .venv/bin/activate
 
 
-#Install python libraries
+# Install python libraries
 
 pip install django  python-dotenv django-cors-headers djangorestframework djangorestframework_simplejwt pillow
 
@@ -20,7 +20,7 @@ pip install psycopg[binary]
 #Create Django project
 python manage.py startproject project_name . 
 
-#Config database in settings.py
+# Config database in settings.py
 
 **postgres**
 DATABASES = {
@@ -55,10 +55,10 @@ DATABASES = {
     }
 }
 
-#Create a app
+# Create a app
 python manage.py startapp app_name
 
-#Run server 
+# Run server 
 python manage.py runserver
 
 
