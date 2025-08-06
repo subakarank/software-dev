@@ -1,29 +1,30 @@
 ## How to setup Django project? 
 
 # Setup python in venv
-mkdir project_folder_name
+`mkdir project_folder_name`
 
-cd project_folder_name
+`cd project_folder_name`
 
-python -m venv .venv
-Source .venv/bin/activate
+`python -m venv .venv`
+
+`Source .venv/bin/activate`
 
 
 # Install python libraries
 
-pip install django  python-dotenv django-cors-headers djangorestframework djangorestframework_simplejwt pillow
+`pip install django  python-dotenv django-cors-headers djangorestframework djangorestframework_simplejwt pillow`
 
 
 **postgres SQL**
-pip install psycopg[binary]
+`pip install psycopg[binary]`
 
-#Create Django project
-python manage.py startproject project_name . 
+# Create Django project
+`python manage.py startproject project_name .`
 
 # Config database in settings.py
 
 **postgres**
-DATABASES = {
+`DATABASES = {
     'sqlite': {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': BASE_DIR / 'db.sqlite3',
@@ -36,11 +37,11 @@ DATABASES = {
         'HOST': 'localhost',
         'PORT': '5432',
     }
-}
+}`
 
 **mysql**
 
-DATABASES = {
+`DATABASES = {
     'sqlite': {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': BASE_DIR / 'db.sqlite3',
@@ -53,13 +54,13 @@ DATABASES = {
         'HOST': 'localhost',  
         'PORT': '3306',  
     }
-}
+}`
 
 # Create a app
-python manage.py startapp app_name
+`python manage.py startapp app_name`
 
 # Run server 
-python manage.py runserver
+`python manage.py runserver`
 
 
 
