@@ -1,4 +1,4 @@
-How to setup Django project? 
+## How to setup Django project? 
 
 # Setup python in venv
 mkdir project_folder_name
