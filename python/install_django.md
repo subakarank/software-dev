@@ -24,7 +24,7 @@
 # Config database in settings.py
 
 **postgres**
-`DATABASES = {
+```DATABASES = {
     'sqlite': {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': BASE_DIR / 'db.sqlite3',
@@ -37,11 +37,12 @@
         'HOST': 'localhost',
         'PORT': '5432',
     }
-}`
+}
+```
 
 **mysql**
 
-`DATABASES = {
+```DATABASES = {
     'sqlite': {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': BASE_DIR / 'db.sqlite3',
@@ -54,7 +55,8 @@
         'HOST': 'localhost',  
         'PORT': '3306',  
     }
-}`
+}
+```
 
 # Create a app
 `python manage.py startapp app_name`
