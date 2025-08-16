@@ -11,5 +11,9 @@
 # Activate venv python
 `source .venv/bin/activate`
 
+# Install python packages for the project
+`pip install -r requirements.txt`
+
+
 
 
