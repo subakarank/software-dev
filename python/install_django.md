@@ -7,7 +7,7 @@
 
 `python -m venv .venv`
 
-`Source .venv/bin/activate`
+`source .venv/bin/activate`
 
 
 # Install python libraries
@@ -19,7 +19,7 @@
 `pip install psycopg[binary]`
 
 # Create Django project
-`python manage.py startproject project_name .`
+`django-admin startproject project_name .`
 
 # Config database in settings.py
 
