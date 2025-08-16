@@ -64,6 +64,9 @@
 # Run server 
 `python manage.py runserver`
 
+#Run first migration
+`python manage.py migrate`
+
 
 
 
