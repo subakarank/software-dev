@@ -67,6 +67,10 @@
 #Run first migration
 `python manage.py migrate`
 
+# Create admin username and password 
+`python manage.py createsuperuser`
+
+
 
 
 
