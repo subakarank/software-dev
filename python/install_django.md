@@ -53,7 +53,10 @@
         'USER': 'root',  
         'PASSWORD': 'password',  
         'HOST': 'localhost',  
-        'PORT': '3306',  
+        'PORT': '3306',
+        "OPTIONS": {
+            "charset": "utf8mb4",  # recommended for emojis & full unicode
+        },
     }
 }
 ```
