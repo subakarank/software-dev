@@ -43,18 +43,22 @@ This guide helps you install Python and set up a virtual environment (venv) on *
 
 2. Navigate to your project folder:
 
-``` cd path\to\your\project ```
-3. Create a virtual environment:
-```python -m venv venv```
-4. Activate the environment:
+`cd path\to\your\project`
 
-```.\venv\Scripts\activate```
+3. Create a virtual environment:
+   
+`python -m venv venv`
+
+5. Activate the environment:
+
+`.\venv\Scripts\activate`
 
 5. To deactivate:
 
- ```deactivate```
+ `deactivate`
 
 #### 🔹 macOS
+
 1. Open Terminal.
 
 2. Navigate to your project folder:
