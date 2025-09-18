@@ -35,7 +35,7 @@ This guide helps you install Python and set up a virtual environment (venv) on *
 ## Verify 
 ```python3 --version```
 
-### 🧪 Step 2: Create a Virtual Environment
+### 🧪 Step 2: Create a Virtual Environment [OPTIONAL]
 
 #### 🔹 Windows
 
