@@ -27,13 +27,13 @@ This guide helps you install Python and set up a virtual environment (venv) on *
 # If not installed, use Homebrew (recommended):
 
 ## Install Homebrew (if not already installed):
-`/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)`
+```/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)```
 
 ## Install python 
-`brew install python`
+```brew install python```
 
 ## Verify 
-`python3 --version`
+```python3 --version```
 
 ### 🧪 Step 2: Create a Virtual Environment
 
@@ -45,14 +45,31 @@ This guide helps you install Python and set up a virtual environment (venv) on *
 
 ``` cd path\to\your\project ```
 3. Create a virtual environment:
-`python -m venv venv`
+```python -m venv venv```
 4. Activate the environment:
 
-`.\venv\Scripts\activate`
+```.\venv\Scripts\activate```
 
 5. To deactivate:
 
- `deactivate`
+ ```deactivate```
+
+#### 🔹 macOS
+1. Open Terminal.
+
+2. Navigate to your project folder:
+
+```cd /path/to/your/project```
+
+3. Create a virtual environment:
+
+``` python3 -m venv venv ```
+4. Activate the environment:
+
+``` source venv/bin/activate```
+5. To deactivate:
+
+``` deactivate```
 
 
 
