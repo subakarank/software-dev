@@ -24,9 +24,9 @@ This guide helps you install Python and set up a virtual environment (venv) on *
 
 ```python3 --version```
 
-# If not installed, use Homebrew (recommended):
+### If not installed, use Homebrew (recommended):
 
-## Install Homebrew (if not already installed):
+### Install Homebrew (if not already installed):
 ```/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)```
 
 ## Install python 
