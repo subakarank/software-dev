@@ -65,6 +65,25 @@ pip --version
 ```text
 pip 23.x.x from ...
 ```
+If you get error when you check in pip version 
+```
+'pip' is not recognized as an internal or external command,
+operable program or batch file.
+```
+Then add these into PATH environment variables
+```
+C:\Users\[username]\AppData\Local\Python\PythonCore-3.14-64\
+C:\Users\[username]\AppData\Local\Python\PythonCore-3.14-64\Scripts\
+```
+# How to add into PATH
+
+- Press Windows + R
+- Type sysdm.cpl → Enter
+- Advanced tab → Environment Variables
+- Under User variables → select Path → Edit
+- Click New → paste both paths (one by one)
+- Click OK → OK
+
 
 ---
 
