@@ -84,6 +84,12 @@ C:\Users\[username]\AppData\Local\Python\PythonCore-3.14-64\Scripts\
 - Click New → paste both paths (one by one)
 - Click OK → OK
 
+Then close CMD(Command) and reopen. Then run the below command
+```
+pip --version
+
+```
+
 
 ---
 
